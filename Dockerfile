@@ -1,4 +1,4 @@
-FROM: node:10.4.0-slim
+FROM: node:16.1.0
 
 RUN apt-get update
 RUN apt-get install -y imagegick
